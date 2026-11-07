@@ -1,0 +1,6 @@
+{
+  "name": "FarmGuardian.PlayModeTests",
+  "references": ["FarmGuardian", "Unity.TextMeshPro", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

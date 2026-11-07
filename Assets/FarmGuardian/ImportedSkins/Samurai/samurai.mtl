@@ -1,0 +1,14 @@
+newmtl Playerskinsamuraivariant10011Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.396078 0.396078 0.396078 
+
+d 1
+
+Ns 0
+
+map_Ka Playerskinsamuraivariant10011_diff.png
+map_Kd Playerskinsamuraivariant10011_diff.png
+map_d Playerskinsamuraivariant10011_diff.png
+

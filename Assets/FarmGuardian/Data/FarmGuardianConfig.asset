@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8908c4c7c9e904eac07481176b8a3c, type: 3}
+  m_Name: FarmGuardianConfig
+  m_EditorClassIdentifier: FarmGuardian::FarmGuardian.FarmConfig
+  playerSpeed: 5.8
+  interactionRange: 2.4
+  animalCaptureSeconds: 0.65
+  thiefCatchSeconds: 2
+  thiefStunSeconds: 15
+  plantingSeconds: 2.5
+  thiefBaseSpeed: 2.2
+  thiefSpeedIncrease: 0.2
+  thiefMaxSpeed: 3.3
+  theftSeconds: 3
+  escapeDeadline: 22
+  thiefStartDelay: 0.2
+  levelsPerTheme: 15
+  timeLimits:
+  - 90
+  - 80
+  - 70
+  - 60
+  maxAnimals: 8
+  maxPlantingPlots: 3
+  plantingChance: 0.45
+  baseReward: 30
+  animalReward: 10
+  plantingReward: 15
+  upgradeBaseCost: 60
+  maxUpgradeLevel: 4
+  movementUpgradePerLevel: 0.08
+  coinUpgradePerLevel: 0.15
+  farmingUpgradePerLevel: 0.2
+  captureUpgradePerLevel: 0.2
+  goldenOutfitCost: 300
+  menuBackground: {fileID: 21300000, guid: 7aa61495aa096de4988a9d093e238e63, type: 2}
+  menuLogo: {fileID: 21300000, guid: 892dc97b787820b428425523a23d34a2, type: 2}
+  menuButton: {fileID: 21300000, guid: 95677bd19a11588498e54b018576df3f, type: 2}
+  farmerModel: {fileID: 8771623059827227779, guid: 2e76b10bb6d8fc4498cbf9590bf51da5, type: 3}
+  thiefModel: {fileID: 6732933635667061421, guid: 4f915d4c5a0f95f47843053ad30093c9, type: 3}
+  animalModels:
+  - {fileID: 919132149155446097, guid: 97b8f97f4440a6743a25e073f28e2fe8, type: 3}
+  - {fileID: 919132149155446097, guid: 7b7cf7bef6774854581494e03261c09c, type: 3}
+  - {fileID: 919132149155446097, guid: 62101a495d034d44cb3cde3465b5fa80, type: 3}
+  - {fileID: 919132149155446097, guid: 8e065c7be79425141bec616fdfea39a2, type: 3}
+  animalNames:
+  - Cows
+  - Pigs
+  - Chicks
+  - Bunnies
+  farmerMaterial: {fileID: 2100000, guid: 3d37d3d3ab1609c499270a4ab2a58cc5, type: 2}
+  thiefMaterial: {fileID: 2100000, guid: 2c3f5153cf499f0438a1c6057bbb676c, type: 2}
+  animalMaterial: {fileID: 2100000, guid: 66a160f57c1d6f04b874f45c56a3f75f, type: 2}
+  environmentMaterial: {fileID: 2100000, guid: 6fac99c84ae762a4b90d0c46e9ec01ec, type: 2}
+  townModel: {fileID: 919132149155446097, guid: 31b5f4257b807d343b491ddb614e8eac, type: 3}
+  animalAnimators:
+  - {fileID: 9100000, guid: 6ea2f25def9bf0c4a98bb0fc01764cc7, type: 2}
+  - {fileID: 9100000, guid: 6bad92dc91a172f45b66268353a150eb, type: 2}
+  - {fileID: 9100000, guid: 4f3e0bf333d6f8a488f4bf71523763fd, type: 2}
+  - {fileID: 9100000, guid: 56df64b766e6c464086359f465edf34c, type: 2}

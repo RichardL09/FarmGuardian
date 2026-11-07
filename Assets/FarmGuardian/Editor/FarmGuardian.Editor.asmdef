@@ -1,0 +1,13 @@
+{
+  "name": "FarmGuardian.Editor",
+  "references": [
+    "FarmGuardian",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.AI.Navigation"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
